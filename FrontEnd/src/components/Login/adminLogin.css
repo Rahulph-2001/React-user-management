@@ -1,0 +1,27 @@
+.input-dark {
+  width: 100%;
+  padding: 10px;
+  background-color: #374151; /* Dark Gray */
+  color: white;
+  border: 1px solid #4b5563; /* Slightly lighter border */
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Prevent white autofill */
+.input-dark:-webkit-autofill,
+.input-dark:-webkit-autofill:hover,
+.input-dark:-webkit-autofill:focus,
+.input-dark:-webkit-autofill:active {
+  background-color: #374151 !important;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Focused state */
+.input-dark:focus {
+  border-color: #a855f7; /* Purple border */
+  box-shadow: 0 0 8px rgba(168, 85, 247, 0.5);
+}

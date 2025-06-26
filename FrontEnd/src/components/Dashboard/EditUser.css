@@ -1,0 +1,72 @@
+.edit-user-container {
+  width: 400px; /* Reduced width */
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.edit-user-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile-pic-container {
+  margin-bottom: 20px;
+}
+
+.profile-pic-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+}
+
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-user-form label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.edit-user-form input,
+.edit-user-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.edit-user-form button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-user-form button:hover {
+  background: #0056b3;
+}
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+  margin-bottom: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
